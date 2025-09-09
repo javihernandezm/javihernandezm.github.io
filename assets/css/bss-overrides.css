@@ -1,0 +1,111 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #f204b1;
+  --bs-primary-rgb: 242,4,177;
+  --bs-primary-text-emphasis: #610247;
+  --bs-primary-bg-subtle: #FCCDEF;
+  --bs-primary-border-subtle: #FA9BE0;
+  --bs-body-color: #323fa4;
+  --bs-body-color-rgb: 50,63,164;
+  --bs-secondary-color: rgba(50,63,164,0.75);
+  --bs-secondary-color-rgb: 50,63,164,0.75;
+  --bs-tertiary-color: rgba(50,63,164,0.5);
+  --bs-tertiary-color-rgb: 50,63,164,0.5;
+  --bs-body-font-family: Aleo, serif;
+}
+
+.btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #f204b1;
+  --bs-btn-border-color: #f204b1;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #F42ABD;
+  --bs-btn-hover-border-color: #F31DB9;
+  --bs-btn-focus-shadow-rgb: 36,1,27;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #F536C1;
+  --bs-btn-active-border-color: #F31DB9;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #f204b1;
+  --bs-btn-disabled-border-color: #f204b1;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #f204b1;
+  --bs-btn-border-color: #f204b1;
+  --bs-btn-focus-shadow-rgb: 242,4,177;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #f204b1;
+  --bs-btn-hover-border-color: #f204b1;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #f204b1;
+  --bs-btn-active-border-color: #f204b1;
+  --bs-btn-disabled-color: #f204b1;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f204b1;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.me-1 {
+  margin-right: .25rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: .25rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .mb-md-0 {
+    margin-bottom: 0rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mb-md-3 {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .py-lg-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
