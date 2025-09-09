@@ -35,6 +35,10 @@
   --bs-dark-bg-subtle: #CFCED1;
   --bs-dark-border-subtle: #A09EA2;
   --bs-body-font-family: 'Golos Text', sans-serif;
+  --bs-link-color: rgb(255,255,255);
+  --bs-link-color-rgb: 255,255,255;
+  --bs-link-hover-color: rgb(255,255,255);
+  --bs-link-hover-color-rgb: 255,255,255;
 }
 
 .btn-primary {
